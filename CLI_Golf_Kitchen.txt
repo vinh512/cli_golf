@@ -1,0 +1,228 @@
+Last login: Mon Nov 14 16:41:17 on ttys001
+nvm is not compatible with the npm config "prefix" option: currently set to "/Users/Vinh/.nvm/versions/node/v7.1.0"
+Run `nvm use --delete-prefix v7.1.0 --silent` to unset it.
+ GA General Assembly  Web Development Immersive 
+------------------------------------------
+git version 2.10.2
+Homebrew 1.1.0 Homebrew/homebrew-core (git revision 1d0a; last commit 2016-11-14)
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin16]
+-bash: node: command not found
+node 
+psql (PostgreSQL) 9.5.5
+------------------------------------------
+type unwelcome to remove this message
+vinh ~
+$ ls
+2		  'Creative Cloud Files'/  Downloads/  Music/	  code/
+Applications/	  Desktop/		   Library/    Pictures/
+CodeProjectTest/  Documents/		   Movies/     Public/
+vinh ~
+$ cd Desktop/
+vinh ~/Desktop
+$ ls
+'JS stuff'/  TomorrowNight.terminal  fundamentals/  notes.backup  thelionking/
+MKS/	     cli_golf-master/	     iTerm.app/     practiceDir/
+vinh ~/Desktop
+$ cd cli_golf-master/
+vinh ~/Desktop/cli_golf-master
+$ ls
+LICENSE.txt*  README.md*  kitchen/  kitchen.zip*
+vinh ~/Desktop/cli_golf-master
+$ cd kitchen/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd fridge/
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ ls
+diapers.txt  freezer/  milk.txt  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ mv trashcan/ ../
+'trashcan/' -> '../trashcan'
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt  sink/
+vinh ~/Desktop/cli_golf-master/kitchen/trashcan
+$ mv sink/ ../
+'sink/' -> '../sink'
+vinh ~/Desktop/cli_golf-master/kitchen/trashcan
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd pantry/
+vinh ~/Desktop/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt  crisper-drawer/
+vinh ~/Desktop/cli_golf-master/kitchen/pantry
+$ mv crisper-drawer/ ../fridge/
+'crisper-drawer/' -> '../fridge/crisper-drawer'
+vinh ~/Desktop/cli_golf-master/kitchen/pantry
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd fridge/
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd pantry/
+vinh ~/Desktop/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+vinh ~/Desktop/cli_golf-master/kitchen/pantry
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd sink/
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ mkdir drying-rack
+gmkdir: created directory 'drying-rack'
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ ls
+clean-dishes.txt  delete-me.txt  dirty-dishes.txt  drying-rack/
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ mv clean-dishes.txt drying-rack/
+'clean-dishes.txt' -> 'drying-rack/clean-dishes.txt'
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ cd drying-rack/
+vinh ~/Desktop/cli_golf-master/kitchen/sink/drying-rack
+$ ls
+clean-dishes.txt
+vinh ~/Desktop/cli_golf-master/kitchen/sink/drying-rack
+$ cd ../../
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd sink/
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ ls
+delete-me.txt  dirty-dishes.txt  drying-rack/
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ rm delete-me.txt 
+removed 'delete-me.txt'
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ ls
+dirty-dishes.txt  drying-rack/
+vinh ~/Desktop/cli_golf-master/kitchen/sink
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen/trashcan
+$ ls
+banana-peels.txt  chicken-bones.txt  egg-shells.txt
+vinh ~/Desktop/cli_golf-master/kitchen/trashcan
+$ cd ~
+vinh ~
+$ ls
+2		  'Creative Cloud Files'/  Downloads/  Music/	  code/
+Applications/	  Desktop/		   Library/    Pictures/
+CodeProjectTest/  Documents/		   Movies/     Public/
+vinh ~
+$ cd Desktop/
+vinh ~/Desktop
+$ ls
+'JS stuff'/  TomorrowNight.terminal  fundamentals/  notes.backup  thelionking/
+MKS/	     cli_golf-master/	     iTerm.app/     practiceDir/
+vinh ~/Desktop
+$ cd cli_golf-master/
+vinh ~/Desktop/cli_golf-master
+$ ls
+LICENSE.txt*  README.md*  kitchen/  kitchen.zip*
+vinh ~/Desktop/cli_golf-master
+$ cd kitchen/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd fridge/
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  diapers.txt  freezer/	milk.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ rm diapers.txt 
+removed 'diapers.txt'
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ cd crisper-drawer/
+vinh ~/Desktop/cli_golf-master/kitchen/fridge/crisper-drawer
+$ ls
+lettuce.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge/crisper-drawer
+$ touch apples.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge/crisper-drawer
+$ ls
+apples.txt  lettuce.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge/crisper-drawer
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ cd freezer/
+vinh ~/Desktop/cli_golf-master/kitchen/fridge/freezer
+$ ls
+couch.txt  frozenpeas.txt  icecream.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge/freezer
+$ rm couch.txt 
+removed 'couch.txt'
+vinh ~/Desktop/cli_golf-master/kitchen/fridge/freezer
+$ ls
+frozenpeas.txt	icecream.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge/freezer
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd pantry
+vinh ~/Desktop/cli_golf-master/kitchen/pantry
+$ ls
+cans.txt  cereal.txt
+vinh ~/Desktop/cli_golf-master/kitchen/pantry
+$ cd ..
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+cans.txt  fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ rm cans.txt
+removed 'cans.txt'
+vinh ~/Desktop/cli_golf-master/kitchen
+$ ls
+fridge/  pantry/  sink/  trashcan/
+vinh ~/Desktop/cli_golf-master/kitchen
+$ cd fridge/
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ ls
+crisper-drawer/  freezer/  milk.txt
+vinh ~/Desktop/cli_golf-master/kitchen/fridge
+$ 
